@@ -1,10 +1,10 @@
 # Checkout Cart
 
-Bu proje, alışveriş sepeti uygulamasının basit bir şekilde nasıl oluşturulabileceğini göstermek için oluşturulmuştur. Bu uygulama, kullanıcının sepetine ürün eklemesine, ürünlerin fiyatlarını hesaplamasına ve bu tutarlari görüntülemesine olanak saglar.
+This project was created to demonstrate how a simple shopping cart application can be created. This application allows users to add products to their carts, calculate prices of the products, and make payments.
 
-## Nasıl Kullanılır
+## How to Use
 
-Bu uygulamayı kullanmak için öncelikle bilgisayarınızda Git ve Node.js'in yüklü olduğundan emin olun. Daha sonra aşağıdaki komutları sırasıyla terminale girin:
+To use this application, first make sure that Git and Node.js are installed on your computer. Then enter the following commands in the terminal in order:
 
 ```bash
 git clone https://github.com/iamfatihay/Checkout-Cart.git
@@ -13,26 +13,26 @@ npm install
 npm start
 ```
 
-Bu komutlar, uygulamanın klonunu indirir, gerekli bağımlılıkları yükler ve uygulamayı başlatır. Uygulamayı başlattıktan sonra, `http://localhost:3000` adresindeki web sitesine gidin ve uygulamayi denemeye başlayın!
+These commands will download the clone of the application, install the necessary dependencies, and start the application. After starting the application, go to the website at `http://localhost:3000` and start shopping!
 
-## Özellikler
+## Features
 
-Bu uygulama aşağıdaki özelliklere sahiptir:
+This application has the following features:
 
-- Kullanıcılar, ürünlerin listesinden ürünlerin adedini ve eger silmek isterse silebilirler.
-- Sepetim sayfasında, kullanıcılar sepetlerindeki ürünleri görebilir ve fiyatlarını hesaplayabilirler.
+- Users can add products from the list of products to their carts.
+- On the Cart page, users can see the products in their carts and calculate their prices.
 
-## Teknolojiler
+## Technologies
 
-Bu proje, aşağıdaki teknolojileri kullanır:
+This project uses the following technologies:
 
-- Javascript(DOM)
-- Bootstrap: Uygulamanın tasarımı için.
+- JavaScript: For creating the logic of the application.
+- Bootstrap: For the design of the application.
 
-## Katkıda Bulunma
+## Contributing
 
-Bu proje açık kaynaklıdır ve herkes tarafından katkıda bulunmaya açıktır. Eğer bu projeye katkıda bulunmak isterseniz, lütfen bir Pull Request gönderin.
+This project is open source and open to contribution by everyone. If you would like to contribute to this project, please submit a pull request.
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+This project is licensed under the MIT license. For more information, please see the `LICENSE` file.
