@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout-Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link
+      rel="stylesheet"
+      href="../../../../DE-12-Bootstrap-1/assests/bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class="text-center mb-4 mt-2">Checkout</h1>
+    <main class="container">
+        <div class="aaa">
+            <!-- <form action="" class="col-md-6">
+                <div id="contact" class="row g-3">
+                    <h2>Contact information</h2>
+                    <div class="col-12 mb-2">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"
+                                    style="color: #616975"></i></span>
+                            <input type="email" class="form-control" placeholder="Enter your email..."
+                                aria-label="Useremail" aria-describedby="basic-addon1" required />
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <label for="inputPhone" class="form-label">Phone</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"
+                                    style="color: #616975"></i></span>
+                            <input type="text" class="form-control" placeholder="Enter your phone..."
+                                aria-label="Userphone" aria-describedby="basic-addon1" required />
+                        </div>
+                    </div>
+                </div>
+                <div id="shipping" class="row g-3">
+                    <h2 class="">Shipping address</h2>
+                    <div class="col-12">
+                        <label for="inputName" class="form-label">Full name</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"
+                                    style="color: #616975"></i></span>
+                            <input type="text" class="form-control" placeholder="Enter your name..."
+                                aria-label="Username" aria-describedby="basic-addon1" required />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i
+                                    class="fa-sharp fa-solid fa-house-chimney" style="color: #616975"></i></span>
+                            <input type="text" class="form-control" placeholder="Enter your address..."
+                                aria-label="UserAddress" aria-describedby="basic-addon1" required />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="inputCity" class="form-label">City</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-city"
+                                    style="color: #616975"></i></span>
+                            <input type="text" class="form-control" placeholder="Enter your city..."
+                                aria-label="UserCity" aria-describedby="basic-addon1" required />
+                        </div>
+                    </div>
+
+                    <div class="col-5">
+                        <label for="inputCountry" class="form-label">Country</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-earth-americas"
+                                    style="color: #616975"></i></span>
+                            <select id="inputCountry" class="form-select" required>
+                                <option selected>Choose</option>
+                                <option>Turkey</option>
+                                <option>Germany</option>
+                                <option>USA</option>
+                                <option>Canada</option>
+                                <option>UK</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7">
+                        <label for="inputZip" class="form-label">Post Code</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelopes-bulk"
+                                    style="color: #545c69"></i></span>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Post code..." required />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required />
+                            <label class="form-check-label mb-2" for="gridCheck">
+                                See this information next time
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center mt-4 mb-4">
+                    <button type="submit" class="btn btn-warning text-white">
+                        Continue
+                    </button>
+                </div>
+            </form> -->
+
+            <div class="container col-md-6 bg-body-secondary p-4" style="border-radius: 15px">
+                <div class="row mb-3">
+                    <div class="resim col-5">
+                        <img src="./img/photo1.png" class="img-thumbnail" alt="" style="border-radius: 15px" />
+                    </div>
+                    <div class="infos col-7 d-flex flex-column justify-content-between">
+                        <h4>Vintage Backbag</h4>
+                        <p class="text-warning fs-5 fw-bold">
+                            $25.98
+                            <span class="text-black ms-1 text-decoration-line-through fs-6">$34.99</span>
+                        </p>
+                        <div class="btn-group gap-3 mt-1" style="
+                  border: 1px solid gray;
+                  padding: 1px 15px;
+                  width: 150px;
+                  height: 35px;
+                  margin-bottom: 3px;
+                " role="group" aria-label="Basic example">
+                            <button type="button" class="minus1 btn btn-light"
+                                style="background-color: #c5c8ce; font-size: small">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <p class="number1 fs-5">1</p>
+                            <button type="button" class="plus1 btn btn-light"
+                                style="background-color: #c5c8ce; font-size: small">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <div><button type="button" class="remove btn btn-danger fs-6"
+                                style="padding:1px 14px">Remove</button></div>
+                        <p class="fw-bold">Product Total: $<span class="sil" id="bag">25.98</span></p>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="row mb-3">
+                    <div class="resim col-5">
+                        <img src="./img/photo2.png" class="img-thumbnail" alt="" style="border-radius: 15px" />
+                    </div>
+                    <div class="infos col-7 d-flex flex-column justify-content-between">
+                        <h4>Levi Shoes</h4>
+                        <p class="text-warning fs-5 fw-bold">
+                            $45.99<span class="text-black ms-1 text-decoration-line-through fs-6">$54.99</span>
+                        </p>
+                        <div class="btn-group gap-2 mt-3" style="
+                  border: 1px solid gray;
+                  padding: 1px 15px;
+                  width: 150px;
+                  height: 35px;
+                  margin-bottom: 3px;
+                " role="group" aria-label="Basic example">
+                            <button type="button" class="minus2 btn btn-light"
+                                style="background-color: #c5c8ce; font-size: small">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <p class="number2 fs-5">1</p>
+                            <button type="button" class="plus2 btn btn-light"
+                                style="background-color: #c5c8ce; font-size: small">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <div><button type="button" class="remove btn btn-danger fs-6"
+                                style="padding:1px 14px">Remove</button></div>
+                        <p class="fw-bold">Product Total: $<span class="sil" id="shoe">45.99</span></p>
+                    </div>
+                </div>
+
+
+
+                <div class="row mb-3">
+                    <div class="resim col-5">
+                        <img src="./img/photo3.jpg" class="img-thumbnail" alt="" style="border-radius: 15px" />
+                    </div>
+                    <div class="infos col-7 d-flex flex-column justify-content-between">
+                        <h4>Antique Clock</h4>
+                        <p class="text-warning fs-5 fw-bold">
+                            $74.99<span class="text-black ms-1 text-decoration-line-through fs-6">$94.99</span>
+                        </p>
+                        <div class="btn-group gap-2 mt-3" style="
+                  border: 1px solid gray;
+                  padding: 1px 15px;
+                  width: 150px;
+                  height: 35px;
+                  margin-bottom: 3px;
+                " role="group" aria-label="Basic example">
+                            <button type="button" class="minus3 btn btn-light"
+                                style="background-color: #c5c8ce; font-size: small">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <p class="number3 fs-5">1</p>
+                            <button type="button" class="plus3 btn btn-light"
+                                style="background-color: #c5c8ce; font-size: small">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <div><button type="button" class="remove btn btn-danger fs-6"
+                                style="padding:1px 14px">Remove</button></div>
+                        <p class="fw-bold">Product Total: $<span class="sil" id="clock">74.99</span></p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <hr />
+                    <div class="col-12 d-flex justify-content-between">
+                        <p>Subtotal</p>
+                        <p>$<span id="subTotal">146.96</span></p>
+                    </div>
+                    <hr />
+                    <div class="col-12 d-flex justify-content-between">
+                        <p>Tax(%18)</p>
+                        <p>$<span id="tax">26.95</span></p>
+                    </div>
+                    <hr />
+                    <div class="col-12 d-flex justify-content-between">
+                        <p>Shipping</p>
+                        <p>$<span id="shipping">15.00</span></p>
+                    </div>
+                    <hr />
+                    <div class="col-12 d-flex justify-content-between">
+                        <p>Total</p>
+                        <p>$<span id="total">188.91</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
